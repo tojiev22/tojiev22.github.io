@@ -1,0 +1,119 @@
+
+
+
+
+main .container .info .text p.active{
+    width: 350px;
+    font-size: 16px;
+    color: #787878;
+}
+.bg-darked{
+    background: #141414;
+}
+footer{
+    width: 100%;
+    height: 220px;
+    background: black;
+    margin-top: 70px;
+    }
+    
+    footer .foter_top .container .row .col-12{
+      display: flex;
+      margin-top: 50px;
+      }
+      footer .foter_top .container .row .col-12 .col-4 h5{
+          font-size: 18px;
+          color: #ffffff;
+      }
+      footer .foter_top .container .row .col-12 .col-4 p{
+          font-size: 15px;
+          color: #bcbcbc;
+      }
+      footer .foter_top .container .row .col-12 .col-4 a{
+        font-size: 15px;
+        color: #bcbcbc;
+      }
+      main .main__top .container .row .col-12  button{
+        transform: translateX(475px) ;
+         background: #007d2f; color: white;
+          border: transparent;padding: 20px 35px;
+           text-transform: uppercase;
+            margin-bottom:100px;
+      }
+      main .main__top .container .row .col-12 .info .form_toga .form__jon form input{
+        margin: 50px 0;
+         width: 625px;
+          height: 48px;
+           border: transparent;
+      }
+      main .main__top .container .row .col-12 .info .form_toga .form__hon form input{
+        margin-bottom: 30px;
+         width: 625px;
+           height: 170px;
+            border: transparent;
+      }
+      main .main__top .container .row .col-12 .info .form_toga .form__bek form input{
+         border: transparent;
+          width: 285px;
+           height: 48px;
+      }
+
+
+@media (min-width:576px) and (max-width:768px){
+    main .main__top .container img{
+     width: 530px;
+     height: 300px;
+    }
+    main .main__top .container .row .col-12 .info{
+        flex-direction: column;
+    }
+    main .main__top .container .row .col-12 .info .form_toga .form__bek form input{
+       height: 50px;
+    }
+    main .main__top .container .row .col-12 .info .form_toga .form__jon form input{
+        width: 450px;
+    }
+    main .main__top .container .row .col-12 .info .form_toga .form__hon form input{
+        width: 450px;
+    }
+    main .main__top .container .row .col-12  button{
+        transform: translateX(25px);
+    }
+    footer .foter_top .container .row .col-12 .col-4 .ulli1{
+        display: none;
+    } 
+    footer .foter_top .container .row .col-12 .col-4 .ulli3{
+        display: none;
+    } 
+}
+@media (min-width:768px) and (max-width:992px){
+    main .main__top .container img{
+        width: 750px;
+        height: 500px;
+       }
+       main .main__top .container .row .col-12 .info{
+           flex-direction: column;
+       }
+       main .main__top .container .row .col-12 .info .col-7 .form__bek form input{
+           width: 300px;
+       }
+       footer .foter_top .container .row .col-12 .col-4 .ulli3{
+        display: none;
+    } 
+    main .main__top .container{
+        margin: 0;
+    }
+    main .main__top .container .row .col-12  button{
+        transform: translateX(25px);
+    }
+    
+}
+@media (min-width:992px) and (max-width:1200px){
+    main .main__top .container img{
+        width: 870px;
+        height: 500px;
+       }
+       footer .foter_top .container .row .col-12 .col-4 .ulli1 ul{
+           padding: 0;
+       }
+}
